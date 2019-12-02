@@ -1,0 +1,87 @@
+@font-face {
+  font-family: myNewFont;
+  src:url("fonts/Quicksand-Light.otf");
+
+}
+*{
+  margin:0;
+  padding:0;
+
+}
+body{
+  font-family: myNewFont,sans-serif;
+  font-size:15px;
+  font-weight: bold;
+  color:#777;
+}
+.pbody{
+  background-color:rgba(0,0,0,0.3);
+  font-family: myNewFont,sans-serif;
+  font-size:80px;
+  font-weight:300;
+  color:white;
+  text-align: center;
+}
+.card-title{
+  font-size:34px;
+  font-weight:bold;
+}
+.card-text{
+  font-family: "Arial";
+  font-size:1.3em;
+}
+.list-group-item{
+  font-size:1.1em;
+}
+#food img {
+  margin-top: -50px;
+
+}
+#food p{
+  font-weight:500;
+}
+#food .card{
+  padding:0;
+  border-radius:0;
+  box-shadow: 5px 5px 15px #2EEC34;
+  transition:all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  margin: auto;
+  float: none;
+  margin-bottom: 10px;
+  margin-top: 100px;
+
+}
+#food .card:hover{
+  background:#2D8E09;
+  color:#fff;
+  border-radius:5px;
+  border:none;
+  box-shadow:5px 5px 10px #9E9E9E;
+
+}
+#food .card:hover h3{
+  color:#fff;
+}
+#food .card:hover ul{
+  background:#e74c3c;
+  color:black;
+}
+.bg-img {
+
+  background-image: url("Images/nutrition.jpg");
+
+  min-height: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+
+  position: relative;
+}
+
+
+
+

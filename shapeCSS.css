@@ -1,0 +1,128 @@
+@font-face {
+  font-family: myNewFont;
+  src:url("fonts/Quicksand-Light.otf");
+
+}
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+
+}
+li,a,button {
+  font-family:myNewFont;
+  font-weight: 600;
+  font-size: 16px;
+  color: white;
+
+}
+h3 {
+  float: left;
+  font-size:1.3em;
+  margin-left:10px;
+  padding: 0px;
+  font-family: myNewFont, sans-serif;
+  text-align:left;
+  color:white;
+}
+.bg-img {
+
+  background-image: url("Images/bg1.jpg");
+
+  min-height: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+
+.container {
+  position: absolute;
+  margin: 0;
+  width: 100%;
+}
+
+
+header{
+  display:flex;
+  width:100%;
+  justify-content: space-between;
+  align-items: center;
+  padding:30px 5px;
+  height:100px;
+  background-color: black;
+}
+
+.logo{
+  cursor:pointer;
+  border-radius:50px;
+}
+.nav__links{
+  list-style: none;
+}
+.nav__links li{
+  display:inline-block;
+  padding:0 20px;
+
+}
+.nav__links li a{
+  transition:all 0.3s ease 0s;
+  font-size:1.3em;
+  text-decoration: none;
+
+}
+.nav__links li a:hover{
+  color:#e74c3c;
+}
+button{
+  padding:15px;
+  margin:0;
+  background-color: black;
+  font-size:1.3em;
+  border:none;
+  border-radius: 50px;
+  cursor:pointer;
+  transition:all 0.3s ease 0s;
+
+}
+button:hover{
+  background-color: rgba(203,20,11,0.8);
+}
+.content{
+  width:100%;
+  position:center;
+  height:80px;
+  color:white;
+  background:url("Images/bg1.jpg") no-repeat center;
+  background-size:cover;
+  background-attachment:fixed;
+  height:700px;
+  margin-top:230px;
+}
+.content p{
+
+  text-align: center;
+  vertical-align: middle;
+  line-height: 70px;
+  font-family:"myNewFont", Arial, sans-serif;
+  font-size:70px;
+
+}
+.scroll{
+  background:url("Images/bg1.jpg") no-repeat center;
+  background-size:cover;
+  background-attachment:fixed;
+  height:500px;
+  background-color:black;
+  opacity:0.9;
+}
+.scroll p{
+  text-align:center;
+  vertical-align: middle;
+  padding-top:100px;
+  font-size:2.2em;
+  font-family: myNewFont;
+  color:white;
+}
