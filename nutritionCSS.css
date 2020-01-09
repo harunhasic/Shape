@@ -43,8 +43,8 @@ body{
 #food .card{
   padding:0;
   border-radius:0;
-  box-shadow: 5px 5px 15px #2EEC34;
-  transition:all 0.3s ease-in;
+  box-shadow: 11px 11px 11px palegreen;
+  transition:all 0.4s ease-in;
   -webkit-transition: all 0.3s ease-in;
   -moz-transition: all 0.3s ease-in;
   margin: auto;

@@ -1,0 +1,16 @@
+@font-face {
+  font-family: myNewFont;
+  src:url("fonts/Quicksand-Light.otf");
+
+}
+.bg-img {
+
+  background-image: url("Images/bg1.jpg");
+
+  min-height: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+}

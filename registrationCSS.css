@@ -1,0 +1,29 @@
+@font-face {
+  font-family: myNewFont;
+  src:url("fonts/Quicksand-Light.otf");
+
+}
+body{
+  background: url("Images/bg1.jpg");
+  color:white;
+  font-family:myNewFont;
+}
+h1{
+  font-size:2.3em;
+  font-weight:bold;
+}
+.space{
+  margin-top:20px;
+  margin-bottom:130px;
+
+}
+.heading{
+  text-align:center;
+  vertical-align:middle;
+  font-size:2.5em;
+}
+p{
+  font-size:1.6em;
+}
+
+
